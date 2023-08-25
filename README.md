@@ -1,7 +1,6 @@
 # text-editor-PWA
-# PWA-text-editor
 Progressive Web Applications (PWA): Text Editor
-# PWA-text-editor![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)
+[License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)
 
   ## Description
   This application is a single-page application that meets the PWA criteria. It is text editor that runs in the browser. A variety of data persistence techniques to ensure redundancy in case one of the options isn't supported by the browser. The application is able to work offline as well. To construct the text editor, an existing application was taken and integrating techniques for obtaining and preserving data within an IndexedDB database. The implementation utilised a package known as idb, a streamlined enclosure for the IndexedDB API. This package encompasses a range of practical methods for data storage and retrieval, and has been adopted by enterprises such as Google and Mozilla.
