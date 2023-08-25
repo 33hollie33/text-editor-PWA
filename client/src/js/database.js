@@ -1,12 +1,11 @@
 import { openDB } from 'idb';
 
-
 const initdb = async () =>
   openDB('jate', 1, {
   
     upgrade(db) {
       if (db.objectStoreNames.contains('jate')) {
-        console.log('JATE database exists!');
+        console.log('jate database exists!');
         return;
       }
       
@@ -17,7 +16,7 @@ const initdb = async () =>
 
 
 export const putDb = async (content) => {
-  console.log('POST data to the database');
+  console.log('Post to the database');
 
   
   const jateDb = await openDB('jate', 1);
@@ -29,11 +28,11 @@ export const putDb = async (content) => {
   const request = store.put({ id: 1, content: content });
 
   const result = await request;
-  console.log('successfully saved data to database', result);
+  console.log('saved!', result);
 }
 
 export const getDb = async () => {
-  console.log('GET request from database');
+  console.log('GET request');
 
   const jateDb = await openDB('jate', 1);
 
