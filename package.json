@@ -1,5 +1,5 @@
 {
-  "name": "JATE",
+  "name": "jate",
   "version": "1.0.0",
   "description": "text editing application",
   "main": "server.js",
@@ -17,6 +17,7 @@
   "dependencies": {
     "express": "^4.17.1",
     "if-env": "^1.0.4",
+    "webpack-cli": "^5.1.4",
     "workbox-webpack-plugin": "^7.0.0"
   },
   "devDependencies": {
