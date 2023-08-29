@@ -66,5 +66,7 @@ This project is licensed under the terms of GPL3.0.  (https://www.gnu.org/licens
   Github: https://github.com/33hollie33 
 
   ## Heroku
+  https://text-editor-pwa-demo-a33b7c91ee86.herokuapp.com/
+  
 
   
